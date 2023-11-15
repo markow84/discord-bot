@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
-const token = 'MTE3NDMxNzI3MDgxNDcwNzc1Mw.GCj1e9.Zg1FgR1fMc9qCV5pjNHlTaOTxBUVlXZiP0P03A';
+const token = '';
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages,GatewayIntentBits.MessageContent]
